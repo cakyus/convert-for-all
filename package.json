@@ -1,0 +1,22 @@
+{
+  "name": "convert-for-all",
+  "version": "1.0.0",
+  "description": "Easily transform data between CSV, JSON, SQL, and other formats with ease.",
+  "bin": {
+    "cv": "./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thesuhu/convert-for-all.git"
+  },
+  "keywords": [
+    "convert",
+    "converter"
+  ],
+  "author": "thesuhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thesuhu/convert-for-all/issues"
+  },
+  "homepage": "https://github.com/thesuhu/convert-for-all#readme"
+}
