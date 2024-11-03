@@ -1,5 +1,8 @@
 # convert-for-all
 
+[![npm](https://img.shields.io/npm/v/convert-for-all.svg?style=flat-square)](https://www.npmjs.com/package/convert-for-all)
+[![license](https://img.shields.io/github/license/thesuhu/convert-for-all?style=flat-square)](https://github.com/thesuhu/convert-for-all/blob/master/LICENSE)
+
 Easily transform data between CSV, JSON, SQL, and other formats with ease.
 
 ## Installation
