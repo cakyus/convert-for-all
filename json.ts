@@ -7,6 +7,9 @@ export function convertJsonToSql(inputFile) {
         return;
     }
 
+    // JSON.parse() require whole file content to be read.
+    // so, reading file as asynchronous is useless.
+
     const decoder = new TextDecoder("utf-8");
     const bytes = Deno.readFileSync(inputFile);
     const text = decoder.decode(bytes);
