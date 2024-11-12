@@ -1,7 +1,8 @@
-const fs = require('fs');
-const path = require('path');
+import { readFileSync } from "@std/fs";
+import { basename } from "@std/path";
 
-function convertJsonToSql(inputFile, outputFile) {
+export function convertJsonToSql(inputFile, outputFile) {
+
     if (!inputFile) {
         console.error('Input file is required.');
         return;
@@ -33,4 +34,3 @@ function convertJsonToSql(inputFile, outputFile) {
     });
 }
 
-module.exports = { convertJsonToSql };

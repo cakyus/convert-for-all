@@ -1,6 +1,4 @@
-#!/usr/bin/env node
-
-const { convertJsonToSql } = require('./json');
+import { convertJsonToSql } from "./json.ts";
 
 // Ambil argumen dari command line
 const [, , command, inputFile, outputFile] = process.argv;
